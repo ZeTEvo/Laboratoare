@@ -1,93 +1,93 @@
-[!DOCTYPE html]
-[html lang="ro"]
-[head]
-[meta charset="UTF-8"]
-[meta name="viewport" content="width=device-width, initial-scale=1.0"]
-[title]City Explorer[/title]
-[link rel="stylesheet" href="css/style.css"]
-[/head]
-[body]
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>City Explorer</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-[header class="site-header"]
-    [h1]City Explorer[/h1]
-    [nav class="menu"]
-        [a href="#destinatii"]Destinații[/a]
-        [a href="#planifica"]Planifică[/a]
-        [a href="#recomandari"]Recomandări[/a]
-    [/nav]
-[/header]
+<header class="site-header">
+    <h1>City Explorer</h1>
+    <nav class="menu">
+        <a href="#destinatii">Destinații</a>
+        <a href="#planifica">Planifică</a>
+        <a href="#recomandari">Recomandări</a>
+    </nav>
+</header>
 
-[main]
-    [section id="destinatii"]
-        [h2]Destinații[/h2]
-        [div class="cards"]
-            [article class="card featured"]
-                [h3]Torla-Ordesa, Spania[/h3]
-                [p]Poarta de intrare în Parcul Național Ordesa y Monte Perdido, ideală pentru trasee montane în Pirinei.[/p]
-                [p][strong]Durată recomandată:[/strong] 4 zile[/p]
-            [/article]
+<main>
+    <section id="destinatii">
+        <h2>Destinații</h2>
+        <div class="cards">
+            <article class="card featured">
+                <h3>Torla-Ordesa, Spania</h3>
+                <p>Poarta de intrare în Parcul Național Ordesa y Monte Perdido, ideală pentru trasee montane în Pirinei.</p>
+                <p><strong>Durată recomandată:</strong> 4 zile</p>
+            </article>
 
-            [article class="card"]
-                [h3]Lisabona, Portugalia[/h3]
-                [p]Orașul colinelor însorite, faimos pentru tramvaiele galbene, cartierul Alfama și priveliștile asupra râului Tejo.[/p]
-                [p][strong]Durată recomandată:[/strong] 3 zile[/p]
-            [/article]
+            <article class="card">
+                <h3>Lisabona, Portugalia</h3>
+                <p>Orașul colinelor însorite, faimos pentru tramvaiele galbene, cartierul Alfama și priveliștile asupra râului Tejo.</p>
+                <p><strong>Durată recomandată:</strong> 3 zile</p>
+            </article>
 
-            [article class="card"]
-                [h3]Chania, Grecia[/h3]
-                [p]Oraș de coastă din Creta cu un port venețian pitoresc, străduțe înguste și plaje cu apă turcoaz.[/p]
-                [p][strong]Durată recomandată:[/strong] 5 zile[/p]
-            [/article]
+            <article class="card">
+                <h3>Chania, Grecia</h3>
+                <p>Oraș de coastă din Creta cu un port venețian pitoresc, străduțe înguste și plaje cu apă turcoaz.</p>
+                <p><strong>Durată recomandată:</strong> 5 zile</p>
+            </article>
 
-            [article class="card"]
-                [h3]Kaunas, Lituania[/h3]
-                [p]Centru cultural vibrant, cunoscut pentru arhitectura interbelică modernistă și confluența râurilor Nemunas și Neris.[/p]
-                [p][strong]Durată recomandată:[/strong] 2 zile[/p]
-            [/article]
+            <article class="card">
+                <h3>Kaunas, Lituania</h3>
+                <p>Centru cultural vibrant, cunoscut pentru arhitectura interbelică modernistă și confluența râurilor Nemunas și Neris.</p>
+                <p><strong>Durată recomandată:</strong> 2 zile</p>
+            </article>
 
-            [article class="card"]
-                [h3]Praga, Cehia[/h3]
-                [p]Capitală istorică impresionantă prin Podul Carol, Ceasul Astronomic și castelul medieval care domină orașul.[/p]
-                [p][strong]Durată recomandată:[/strong] 3 zile[/p]
-            [/article]
-        [/div]
-    [/section]
+            <article class="card">
+                <h3>Praga, Cehia</h3>
+                <p>Capitală istorică impresionantă prin Podul Carol, Ceasul Astronomic și castelul medieval care domină orașul.</p>
+                <p><strong>Durată recomandată:</strong> 3 zile</p>
+            </article>
+        </div>
+    </section>
 
-    [section id="planifica"]
-        [h2]Planifică[/h2]
-        [form class="trip-form"]
-            [label for="name"]Nume[/label]
-            [input id="name" name="name" type="text"]
+    <section id="planifica">
+        <h2>Planifică</h2>
+        <form class="trip-form">
+            <label for="name">Nume</label>
+            <input id="name" name="name" type="text">
 
-            [label for="destination"]Destinație[/label]
-            [select id="destination" name="destination"]
-                [option value=""]Alege...[/option]
-                [option value="Torla-Ordesa"]Torla-Ordesa[/option]
-                [option value="Lisabona"]Lisabona[/option]
-                [option value="Chania"]Chania[/option]
-                [option value="Kaunas"]Kaunas[/option]
-                [option value="Praga"]Praga[/option]
-            [/select]
+            <label for="destination">Destinație</label>
+            <select id="destination" name="destination">
+                <option value="">Alege...</option>
+                <option value="Torla-Ordesa">Torla-Ordesa</option>
+                <option value="Lisabona">Lisabona</option>
+                <option value="Chania">Chania</option>
+                <option value="Kaunas">Kaunas</option>
+                <option value="Praga">Praga</option>
+            </select>
 
-            [label for="days"]Număr de zile[/label]
-            [input id="days" name="days" type="number"]
+            <label for="days">Număr de zile</label>
+            <input id="days" name="days" type="number">
 
-            [button type="submit"]Planifică excursia[/button]
-        [/form]
-    [/section]
+            <button type="submit">Planifică excursia</button>
+        </form>
+    </section>
 
-    [section id="recomandari"]
-        [h2]Recomandări[/h2]
-        [ul class="tips-list"]
-            [li]Salvează hărțile offline pe telefon înainte de a pleca pe trasee sau în zone cu semnal slab.[/li]
-            [li]Rezervă biletele pentru obiectivele populare online, cu câteva zile în avans, pentru a evita cozile.[/li]
-            [li]Verifică abonamentele de transport public pentru 24 sau 72 de ore imediat ce ajungi în oraș.[/li]
-        [/ul]
-    [/section]
-[/main]
+    <section id="recomandari">
+        <h2>Recomandări</h2>
+        <ul class="tips-list">
+            <li>Salvează hărțile offline pe telefon înainte de a pleca pe trasee sau în zone cu semnal slab.</li>
+            <li>Rezervă biletele pentru obiectivele populare online, cu câteva zile în avans, pentru a evita cozile.</li>
+            <li>Verifică abonamentele de transport public pentru 24 sau 72 de ore imediat ce ajungi în oraș.</li>
+        </ul>
+    </section>
+</main>
 
-[footer class="site-footer"]Andu, 2026[/footer]
+<footer class="site-footer">Andu, 2026</footer>
 
 
-[/body]
-[/html]
+</body>
+</html>
